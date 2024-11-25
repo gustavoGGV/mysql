@@ -6,7 +6,8 @@ create table Departamentos (
 	codDep int primary key,
     nomeDep varchar(30),
     locDep varchar(100),
-    codFunGer int
+    codFunGer int,
+    foreign key(codFunGer) references Funcionarios(codFun)
     
 );
 
@@ -32,11 +33,11 @@ create table Funcionarios (
 );
 
 insert into Departamentos values
-(1, 'Marketing', '2° andar', 1),
-(2, 'Limpeza', '1° andar', 3),
+(1, 'Marketing', '2° andar', 3),
+(2, 'Limpeza', '1° andar', 1),
 (3, 'Informática', '2° andar', 2),
 (4, 'Finanças', '3° andar', 2),
-(5, 'RH', '3° andar', 1);
+(5, 'RH', '3° andar', 3);
 
 insert into Funcionarios values
 (1, 'Gustavo', 'Goularte', 'Vieira', '2008-05-02', '78923544094', '334568705', 'Travessa Manoel Ferreira da Silva', '68904344', 'Macapá', '24932806183', 2, 'Limpeza da cozinha', 1000.00),
