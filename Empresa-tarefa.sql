@@ -39,7 +39,7 @@ insert into Departamentos values
 (5, 'RH', '3° andar', 1);
 
 insert into Funcionarios values
-(1, 'Gustavo', 'Goularte', 'Vieira', '2008-05-02', '78923544094', '334568705', 'Travessa Manoel Ferreira da Silva', '68904344', 'Macapá', '24932806183', 2, 'Limpeza da cozinha', 2000.00),
+(1, 'Gustavo', 'Goularte', 'Vieira', '2008-05-02', '78923544094', '334568705', 'Travessa Manoel Ferreira da Silva', '68904344', 'Macapá', '24932806183', 2, 'Limpeza da cozinha', 1000.00),
 (2, 'Alexandre', 'Pato', 'Ganso', '2010-05-25', '76293052064', '212805307', 'Rua Vinte e Três', '64011170', 'Teresina', '55930282896', 1, 'Tik Tok', 4000.00),
 (3, 'Bruno', 'Cavalcanti', 'Pereira', '1999-10-11', '85242710004', '474279418', 'Rua Tupiniquim', '29155027', 'Cariacica', '95933645986', 1, 'Twitter', 4000.00),
 (4, 'Camilo', 'Gonçalves', 'Pessanha', '2001-12-27', '66498256036', '187119685', 'Rua Marquês de Caravelas', '44022092', 'Feira de Santana', '27925111196', 1, 'Instagram', 4000.00),
