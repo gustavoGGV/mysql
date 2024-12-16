@@ -24,4 +24,9 @@ insert into Professores values
 (2, 'Maria Silva', '+5541997623580', 2),
 (3, 'Paulo Silva', '+5545999125587', null);
 
-select Professores.nome, Professores.telefone, Professores.id_turma from Professores right join Turmas on Professores.id_professor=Turmas.id_turma;
+select Turmas.nome as Turma,
+Professores.nome as Professor,
+Professores.telefone as Telefone
+from Turma
+right join Professor
+on Turma.id_turma=Professor.id_turma;
